@@ -1,56 +1,56 @@
 /* Subtle background color for the body */
 .body-class {
-    background-color: #f4f4f4;  /* Light gray background for the body */
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
-    color: #333;  /* Dark text color for readability */
+    color: #333;
 }
 
 /* Header styling: contrasting background and font color */
 .header-class {
-    background-color: #0044cc;  /* Dark blue background */
-    color: white;  /* White text for contrast */
+    background-color: #0044cc;
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
 /* Navigation bar styling: different background color and bold active link */
 .nav-class {
-    background-color: #333;  /* Dark background for the navbar */
+    background-color: #333;
     color: white;
     padding: 10px;
 }
 
 .nav-class a {
-    color: white;  /* Link color */
+    color: white;
     text-decoration: none;
     padding: 10px;
 }
 
 .nav-class a:hover {
-    background-color: #555;  /* Lighter background on hover */
+    background-color: #555;
 }
 
 .nav-class .active {
-    font-weight: bold;  /* Bold text for the active page link */
+    font-weight: bold;
 }
 
 /* Styling for title and section headings */
 .title-class, .section-title-class {
-    color: #cc0000;  /* Red color for contrast */
+    color: #cc0000;
     font-size: 2em;
     margin-top: 20px;
 }
 
 /* Text class: change font color for contrast with the background */
 .text-class {
-    color: #444;  /* Dark gray for better readability */
+    color: #444;
     font-size: 1em;
 }
 
 /* Image class: add a border around images */
 .image-class {
-    border: 5px solid #ddd;  /* Light gray border */
-    border-radius: 8px;  /* Rounded corners */
+    border: 5px solid #ddd;
+    border-radius: 8px;
 }
 
 /* Form and button styling */
@@ -63,7 +63,7 @@
 }
 
 .button-class {
-    background-color: #4CAF50;  /* Green button */
+    background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -72,13 +72,13 @@
 }
 
 .button-class:hover {
-    background-color: #45a049;  /* Slightly darker green on hover */
+    background-color: #45a049;
 }
 
 /* Footer styling */
 .footer-class {
-    background-color: #222;  /* Dark background for footer */
-    color: white;  /* White text */
+    background-color: #222;
+    color: white;
     text-align: center;
     padding: 20px;
     position: fixed;
@@ -89,10 +89,10 @@
 /* Responsive design: make the layout responsive for smaller screens */
 @media screen and (max-width: 600px) {
     .nav-class {
-        text-align: center;  /* Center the nav links on smaller screens */
+        text-align: center;
     }
 
     .form-class input, .form-class textarea, .button-class {
-        width: 100%;  /* Make form elements full-width on mobile */
+        width: 100%;
     }
 }
