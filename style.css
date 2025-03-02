@@ -1,0 +1,98 @@
+/* Subtle background color for the body */
+.body-class {
+    background-color: #f4f4f4;  /* Light gray background for the body */
+    font-family: Arial, sans-serif;
+    color: #333;  /* Dark text color for readability */
+}
+
+/* Header styling: contrasting background and font color */
+.header-class {
+    background-color: #0044cc;  /* Dark blue background */
+    color: white;  /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styling: different background color and bold active link */
+.nav-class {
+    background-color: #333;  /* Dark background for the navbar */
+    color: white;
+    padding: 10px;
+}
+
+.nav-class a {
+    color: white;  /* Link color */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-class a:hover {
+    background-color: #555;  /* Lighter background on hover */
+}
+
+.nav-class .active {
+    font-weight: bold;  /* Bold text for the active page link */
+}
+
+/* Styling for title and section headings */
+.title-class, .section-title-class {
+    color: #cc0000;  /* Red color for contrast */
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Text class: change font color for contrast with the background */
+.text-class {
+    color: #444;  /* Dark gray for better readability */
+    font-size: 1em;
+}
+
+/* Image class: add a border around images */
+.image-class {
+    border: 5px solid #ddd;  /* Light gray border */
+    border-radius: 8px;  /* Rounded corners */
+}
+
+/* Form and button styling */
+.form-class input, .form-class textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-class {
+    background-color: #4CAF50;  /* Green button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #45a049;  /* Slightly darker green on hover */
+}
+
+/* Footer styling */
+.footer-class {
+    background-color: #222;  /* Dark background for footer */
+    color: white;  /* White text */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design: make the layout responsive for smaller screens */
+@media screen and (max-width: 600px) {
+    .nav-class {
+        text-align: center;  /* Center the nav links on smaller screens */
+    }
+
+    .form-class input, .form-class textarea, .button-class {
+        width: 100%;  /* Make form elements full-width on mobile */
+    }
+}
